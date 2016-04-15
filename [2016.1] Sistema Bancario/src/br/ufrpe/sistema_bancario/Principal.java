@@ -22,7 +22,7 @@ public class Principal {
     controlador.remover("444-5");
     controlador.remover("000777-8");
     
-    //AlteraÃ§Ã£o local
+    //Alteração local agora a partir do eclipse
     System.out.println(controlador.procurar("00015-9"));
     
     //Segunda alteração
