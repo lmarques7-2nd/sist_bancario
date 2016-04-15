@@ -22,10 +22,10 @@ public class Principal {
     controlador.remover("444-5");
     controlador.remover("000777-8");
     
-    //Alteração local agora a partir do eclipse
+    //AlteraÃ§Ã£o local agora a partir do eclipse
     System.out.println(controlador.procurar("00015-9"));
     
-    //Segunda alteração
+    //Segunda alteraÃ§Ã£o
     System.out.println("Hello World");
   }
 

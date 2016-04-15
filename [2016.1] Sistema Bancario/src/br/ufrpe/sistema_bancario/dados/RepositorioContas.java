@@ -17,7 +17,7 @@ public class RepositorioContas {
   }
 
   /**
-   * Procura uma conta pelo seu numero
+   * Procura uma conta pelo seu número
    * 
    * @param num
    * @return
@@ -52,7 +52,7 @@ public class RepositorioContas {
         this.proxima = this.proxima - 1;
         System.out.println("Conta " + num + " removida");
     } else {
-        System.out.println("Conta nao existe.");
+        System.out.println("Conta não existe.");
     }
 }
 
