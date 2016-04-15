@@ -26,6 +26,7 @@ public class Conta {
   }
 
   /**
+   * Método para retornar número da conta
    * @return the numero
    */
   public String getNumero() {
