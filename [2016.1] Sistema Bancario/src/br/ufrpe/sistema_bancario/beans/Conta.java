@@ -15,6 +15,9 @@ public class Conta {
     this.saldo = saldo;
   }
   
+  /**
+  * Método creditar (editado do site)
+  */
   public void creditar(double valor) {
     this.saldo += valor;
   }
@@ -48,7 +51,7 @@ public class Conta {
   
   @Override
   public String toString() {
-    return "N�mero da conta: "+ this.numero + "\n  ###SALDO: " + this.saldo + "###";
+    return "Número da conta: "+ this.numero + "\n  ###SALDO: " + this.saldo + "###";
   }
 
 }
