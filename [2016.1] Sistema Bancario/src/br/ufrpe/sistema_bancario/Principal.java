@@ -17,11 +17,12 @@ public class Principal {
     
     Conta c = controlador.procurar("1234-5");
     System.out.println(c);
+    System.out.println(c.getClass());
     
     controlador.remover("444-5");
     controlador.remover("000777-8");
     
-    //Alteração local
+    //AlteraÃ§Ã£o local
     System.out.println(controlador.procurar("00015-9"));
     
     
