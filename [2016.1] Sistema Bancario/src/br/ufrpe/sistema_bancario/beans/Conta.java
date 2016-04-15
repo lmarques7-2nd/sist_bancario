@@ -15,6 +15,9 @@ public class Conta {
     this.saldo = saldo;
   }
   
+  /**
+  * Método creditar (editado do site)
+  */
   public void creditar(double valor) {
     this.saldo += valor;
   }
