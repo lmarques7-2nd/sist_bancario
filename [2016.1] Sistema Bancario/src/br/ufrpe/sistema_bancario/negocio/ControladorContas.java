@@ -16,9 +16,9 @@ public class ControladorContas {
     if (origem != null && destino != null && origem.getSaldo() >= valor) {
       origem.debitar(valor);
       destino.creditar(valor);
-      System.out.println("Transferência realizada com sucesso");
+      System.out.println("TransferÃªncia realizada com sucesso");
     } else {
-      System.out.println("Impossível realizar transferência");
+      System.out.println("ImpossÃ­vel realizar transferÃªncia");
     }
   }
   

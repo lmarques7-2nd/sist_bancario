@@ -26,7 +26,7 @@ public class Conta {
   }
 
   /**
-   * Método para retornar número da conta
+   * MÃ©todo para retornar nÃºmero da conta
    * @return the numero
    */
   public String getNumero() {
@@ -49,7 +49,7 @@ public class Conta {
   
   @Override
   public String toString() {
-    return "Número da conta: "+ this.numero + "\n  ###SALDO: " + this.saldo + "###";
+    return "NÃºmero da conta: "+ this.numero + "\n  ###SALDO: " + this.saldo + "###";
   }
 
 }
