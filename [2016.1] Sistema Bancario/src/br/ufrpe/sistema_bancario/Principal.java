@@ -15,6 +15,7 @@ public class Principal {
     
     controlador.transferir("1234-5", "8889-7", 250);
     
+    //balão, transferência
     Conta c = controlador.procurar("1234-5");
     System.out.println(c);
     System.out.println(c.getClass());
