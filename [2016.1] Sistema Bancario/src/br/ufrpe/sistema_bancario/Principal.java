@@ -27,7 +27,7 @@ public class Principal {
     //Alteração local agora a partir do eclipse
     System.out.println(controlador.procurar("00015-9"));
     
-    //Segunda alteração
+    //Classe azul só
     System.out.println("Hello World");
   }
 
