@@ -16,6 +16,12 @@ public class RepositorioContas {
     this.proxima = this.proxima + 1;
   }
 
+  /**
+   * Procura uma conta pelo seu numero
+   * 
+   * @param num
+   * @return
+   */
   public Conta procurar(String num) {
     int i = procuraIndice(num);
     Conta resultado = null;
@@ -46,7 +52,7 @@ public class RepositorioContas {
         this.proxima = this.proxima - 1;
         System.out.println("Conta " + num + " removida");
     } else {
-        System.out.println("Conta não existe.");
+        System.out.println("Conta nao existe.");
     }
 }
 
