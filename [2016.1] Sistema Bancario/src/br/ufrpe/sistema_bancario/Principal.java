@@ -21,6 +21,9 @@ public class Principal {
     controlador.remover("444-5");
     controlador.remover("000777-8");
     
+    //Alteração local
+    System.out.println(controlador.procurar("00015-9"));
+    
     
   }
 
