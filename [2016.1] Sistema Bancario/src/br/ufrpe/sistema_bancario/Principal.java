@@ -4,7 +4,6 @@ import br.ufrpe.sistema_bancario.beans.Conta;
 import br.ufrpe.sistema_bancario.negocio.ControladorContas;
 
 public class Principal {
-  //classe chata
 
   public static void main(String[] args) {
     ControladorContas controlador = new ControladorContas();
