@@ -4,6 +4,7 @@ import br.ufrpe.sistema_bancario.beans.Conta;
 import br.ufrpe.sistema_bancario.negocio.ControladorContas;
 
 public class Principal {
+  //Contrib do outro user
 
   public static void main(String[] args) {
     ControladorContas controlador = new ControladorContas();
